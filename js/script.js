@@ -96,3 +96,24 @@ function isConnected(){
         }
     })
 }
+
+const path = window.location.pathname;
+  // Récupération de l'URL actuelle
+  const actualRoute = getRouteByUrl(path);
+
+  //Vérifier les droits d'accès à la page
+  const allRolesArray = actualRoute.authorize;
+
+  if(allRolesArray.length > 0){
+    if(allRolesArray.includes("disconnected")){
+      if(isConnected()){
+        window.location.replace("/");
+      }
+    }
+    else{
+      const roleUser = getRole();
+      if(!allRolesArray.includes(roleUser)){
+        window.location.replace("/");
+      }
+    }
+  }
