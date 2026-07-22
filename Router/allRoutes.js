@@ -10,8 +10,8 @@ new Route("/signup", "signup", "/pages/auth/signup.html", "js/auth/signup.js"),
 new Route("/menus", "menus", "/pages/menus.html", "js/auth/menus.js"),];
 + =======*/
 new Route("/contact", "contact", "/pages/contact.html", "js/contact.js"),
-new Route("/signin", "signin", "/pages/signin.html", "js/connect.js"),
-new Route("/signup", "signup", "/pages/signup.html", "js/signup.js"),
+new Route("/signin", "signin", "/pages/auth/signin.html", "js/connect.js"),
+new Route("/signup", "signup", "/pages/auth/signup.html", "js/signup.js"),
 new Route("/menus", "menus", "/pages/menus.html", "js/menus.js"),
 new Route("/detail-menu", "detail-menu", "/pages/detail-menus.html", "js/menus.js"),
 ];
