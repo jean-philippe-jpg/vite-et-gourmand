@@ -14,14 +14,14 @@ sur la branch developpement. la branch developpement contenant les element récu
 CREATE DATABASE vite;
 
 create table  menus (
-    id AUTO_INCREMENT primary key,
-    titre varchar(100) not null,
-    description text not NULL,
-    theme varchar(100) not null,
-    convives integer not NULL,
-    prix INTEGER not NULL,
-    condition text not NULL,
-    plat_id INTEGER,
+    id AUTO_INCREMENT primary key,</br>
+    titre varchar(100) not null,</br
+    description text not NULL,</br>
+    theme varchar(100) not null,</br>
+    convives integer not NULL,</br>
+    prix INTEGER not NULL,</br>
+    condition text not NULL,</br>
+    plat_id INTEGER,</br>
     foreign key (plat_id) references liste_de_plat(id)
     
 );
