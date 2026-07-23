@@ -3,5 +3,4 @@
 
 ## gestion des branch 
 
-'je suis un text'
-je suis un text
+apres avoir créer une branch developpement, depuis la branch principal master, j'ai créer une branch pour chaque fonctionnalité, apartir de la branch devellopement.
