@@ -33,3 +33,11 @@ create table  liste_de_plat (
     dessert VARCHAR(100) not null,
 );
 
+
+## Manuel D'utilisation
+
+seul la parti front est éxistante.</br>
+detail des menus, introuvable depuis le deploiement.</br>
+identifiant de connexion: **test@mail.com** </br>
+password: **123456**
+
