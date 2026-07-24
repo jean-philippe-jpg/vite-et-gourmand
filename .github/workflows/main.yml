@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp-vite-et-gourmands.alwaysdata.net
-        username: vite-et-gourmands 
+        server: ftp-vite-et-gourmand2.alwaysdata.net
+        username: vite-et-gourmand2 
         password: ${{ secrets.ftp_password }}
         exclude: |
           **/.git*
